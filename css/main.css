@@ -1,0 +1,624 @@
+/* Start Framework */
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.text-center
+{
+    text-align: center;
+}
+
+.upper
+{
+    text-transform: uppercase;
+}
+
+.main-color
+{
+    color: #f7600e;
+}
+
+.main-colorbackground
+{
+    background-color: #f7600e;
+}
+
+.hidden
+{
+    display: none;
+}
+
+/* End Framework */
+
+/* Start Header */
+
+.header
+{
+    background: url(../imges/header.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.header .overlay
+{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 100%;
+    background:rgba(49, 55, 61, 0.7);
+}
+
+.header .navbar
+{
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .navbar > span:first-child
+{
+    font-size: 25px;
+}
+
+.header .navbar .links
+{
+    float: right;
+}
+
+.header .navbar .links i
+{
+    margin-left: 5px;
+}
+
+.header .intro h1
+{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header .intro p
+{
+    margin: 5px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #E2E2E2;
+}
+
+.header .buttons button
+{
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 0;
+    margin: 0 8px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header .buttons button:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+
+}
+
+.header .arrow
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+
+}
+.header .arrow i
+{
+    box-sizing: content-box;
+    border: 4px solid #CCC;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/* End Header */
+
+/* Start Features */
+
+.features
+{
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.features .box
+{
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+
+.features .box:last-child
+{
+    margin-right: 0;
+}
+
+.features .box i
+{
+    color: #f7600e;
+    border: 1px solid #CCC;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.features .box i:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #FFF;
+}
+
+.features .box h3
+{
+    text-transform: uppercase;
+    color: #313131;
+    font-weight: normal;
+}
+
+.features .box p
+{
+    line-height: 1.5;
+    color: #757575;
+}
+
+/* End Features */
+
+/* Start Subscribe */
+
+.subscribe
+{
+    background: url(../imges/header.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.subscribe .overlay
+{
+    width: 100%;
+    height: 100%;
+    background:rgba(49, 55, 61, 0.7);
+}
+
+.subscribe .overlay form
+{
+    text-align: center;
+}
+.subscribe .overlay form input[type='email']
+{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: none;
+}
+
+.subscribe .overlay form input::placeholder
+{
+    color: #5A5A5A;
+}
+
+.subscribe .overlay form button
+{
+    background: #f7600e;
+    color: #FFF;
+    width: 200px;
+    padding: 11px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+/* End Subscribe */
+
+/* Strat Our Work */
+
+.our-work
+{
+    padding: 70px;
+}
+
+.our-work h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+}
+
+.our-work h2 ~ p
+{
+    margin: 24px 0 70px;
+    line-height: 1.8;
+}
+
+.our-work .box
+{
+    overflow: hidden;
+}
+
+.our-work .box .item
+{
+    width:31.333% ;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 403px;
+}
+
+.our-work .box .item .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(235, 96, 21, 0.8);
+    color: #FFF;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-work .box .item:hover .overlay
+{
+    display: block;
+
+}
+
+.our-work .box .item .overlay h3
+{
+    margin: 70px 0 0;
+    font-size: 30px;
+}
+
+.our-work .box .item .overlay p
+{
+    margin: 20px 25px 30px;
+    line-height: 1.8;
+}
+
+.our-work .box .item .overlay button
+{
+    background-color: transparent;
+    border: 1px solid #DDD;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.our-work .box .item .overlay button:hover
+{
+    background-color: #FFF;
+    color: #f7600e;
+    border-color: #f7600e;
+}
+
+.our-work .show-more
+{
+    background: transparent;
+    border: 1px solid #DDD;
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 10px;
+    color: #767a7f;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-work .show-more:hover
+{
+    background-color: #f7600e;
+    border-color: #f7600e;
+    color: #FFF;
+}
+/* End Our Work */
+
+/* Start testimonials */
+.testim
+{
+    background: url(../imges/testimonials.png);
+    background-size: cover;
+}
+.testim .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 55, 61, 0.9);
+}
+
+.testim .client
+{
+    padding: 50px;
+    font-size: 20px;
+    color: #FFF;
+}
+.testim .client img
+{
+    border-radius: 50%;
+}
+
+.testim .client p
+{
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.testim .fa-chevron-left,
+.testim .fa-chevron-right
+{
+    position: absolute;
+    top: 50%;
+    color: #CCC;
+    cursor: pointer;
+}
+
+.testim .fa-chevron-left
+{
+    left: 0;
+}
+
+.testim .fa-chevron-right
+{
+    right: 0;
+}
+
+.testim .fa-chevron-left:hover,
+.testim .fa-chevron-right:hover
+{
+    color: #f7600e;
+}
+
+/* End testimonials */
+
+
+/* Start OurTeam */
+
+.our-team
+{
+    padding: 70px 0;
+
+}
+
+.our-team h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+}
+
+.our-team h2 ~ p
+{
+    margin: 24px 0 0;
+    line-height: 1.8;
+}
+
+.team-box
+{
+    overflow: hidden;
+    padding: 70px 0 0;
+
+}
+
+.team-box .box 
+{
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+    color: #888;
+}
+
+.team-box .box img
+{
+    width: 265px;
+    height: 290px;
+    filter: grayscale(1);
+}
+
+.team-box .box .social-icon i 
+{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.team-box .box:hover
+{
+    color: #555
+}
+
+.team-box .box:hover img
+{
+    filter: grayscale(0);
+}
+
+.team-box .box:hover .fa-facebook
+{
+    color: #3b5999;
+}
+.team-box .box:hover .fa-twitter
+{
+    color: #55acee;
+}
+.team-box .box:hover .fa-google-plus
+{
+    color: #dd4b39;
+}
+/* End OurTeam */
+
+
+/* Start Contact */
+
+.contact
+{
+    background: url(../imges/city.png);
+    background-size: cover;
+}
+
+.contact .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 55, 61, 0.9);
+    padding: 50px 0;
+}
+
+.contact .overlay h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+.contact .overlay p
+{
+    color: #FFF;
+}
+.contact .overlay form
+{
+    width: 700px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.contact form input[type='text'],
+.contact form input[type='email']
+{
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.contact form input[type='email']
+{
+    float: right;
+}
+.contact form input[type='text']
+{
+    float: left;
+}
+
+.contact form textarea
+{
+    width: 100%;
+    margin-top: 50PX;
+    padding: 10px 10px;
+    height: 200px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+.contact form button
+{
+    float: left;
+    background: #f7600e;
+    color: #FFF;
+    width: 200px;
+    padding: 11px 0;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.contact form .social-icon
+{
+    float: right;
+    margin-top: 20px;
+}
+
+.contact form .social-icon i 
+{
+    background-color: #9da1a5;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.contact form .social-icon .fa-facebook-f
+{
+    background-color: #3b5999;
+}
+.contact form .social-icon .fa-twitter
+{
+    background-color: #55acee;
+}
+.contact form .social-icon .fa-google-plus-g
+{
+    background-color: #dd4b39;
+}
+
+/* End Contact */
+
+
+/* Start Footer */
+
+.footer
+{
+    background-color: #3b434c;
+    overflow: hidden;
+}
+
+.footer p
+{
+    margin: 0;
+    color: #FFF;
+    float: left;
+    padding: 30px 0;
+}
+
+.footer p:first-child
+{
+    float: left;
+}
+
+.footer p:last-child
+{
+    float: right;
+}
+
+
+/* End Footer */
